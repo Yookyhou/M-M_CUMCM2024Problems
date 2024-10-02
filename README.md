@@ -1,38 +1,38 @@
-# C题 农作物的种植策略
+# C题 Crop Planting Strategies
 
-## 问题背景
-华北山区某乡村常年气温偏低，大部分耕地每年只能种植一季农作物。乡村现有耕地面积 1201 亩，分为 34 个不同类型的地块，包括平旱地、梯田、山坡地和水浇地。此外，乡村还有 16 个普通大棚和 4 个智慧大棚，每个大棚的面积为 0.6 亩。
+## Problem Background
+In a village located in the mountainous area of North China, the temperature is generally low, and most arable land can only support one season of crops each year. The village has a total arable land area of 1201 mu, divided into 34 different types of plots, including flat dry land, terraced fields, hillside land, and irrigated land. Additionally, the village has 16 ordinary greenhouses and 4 smart greenhouses, each with an area of 0.6 mu.
 
-不同类型的地块和大棚适合种植不同的作物：
-- **平旱地、梯田、山坡地**：适合种植一季粮食类作物。
-- **水浇地**：适合种植一季水稻或两季蔬菜。
-- **普通大棚**：适合种植一季蔬菜和一季食用菌。
-- **智慧大棚**：适合种植两季蔬菜。
+Different types of plots and greenhouses are suitable for planting different crops:
+- **Flat dry land, terraced fields, hillside land**: Suitable for planting one season of grain crops.
+- **Irrigated land**: Suitable for planting one season of rice or two seasons of vegetables.
+- **Ordinary greenhouses**: Suitable for planting one season of vegetables and one season of edible fungi.
+- **Smart greenhouses**: Suitable for planting two seasons of vegetables.
 
-同一地块每季可以合种不同的作物，且需避免连续重茬种植。同时，为了促进土地肥力，要求每个地块三年内至少种植一次豆类作物。
+In the same plot, different crops can be mixed in each season, and continuous monoculture should be avoided. Additionally, to promote soil fertility, each plot must plant leguminous crops at least once every three years.
 
-## 问题1
-假设未来农作物的预期销售量、种植成本、亩产量和销售价格相对于 2023 年保持稳定，且每季种植的作物在当季销售。对以下两种情况分别给出 2024~2030 年农作物的最优种植方案：
+## Problem 1
+Assuming that the expected sales volume, planting costs, yield per mu, and sales prices of crops remain stable relative to 2023, and the crops planted each season are sold in that season, provide the optimal planting plan for crops from 2024 to 2030 for the following two scenarios:
 
-1. **情况1**：超过预期销售量的产量滞销，造成浪费。
-2. **情况2**：超过预期销售量的产量按 2023 年销售价格的 50% 降价出售。
+1. **Scenario 1**: Excess production above the expected sales volume leads to wastage.
+2. **Scenario 2**: Excess production above the expected sales volume is sold at 50% of the 2023 sales price.
 
-结果分别填入 `result1_1.xlsx` 和 `result1_2.xlsx` 中（模板文件见附件3）。
+The results should be filled into `result1_1.xlsx` and `result1_2.xlsx` respectively (see attachment 3 for template files).
 
-## 问题2
-考虑以下不确定因素，给出 2024~2030 年的最优种植方案，并将结果填入 `result2.xlsx` 中（模板文件见附件3）：
-- 小麦和玉米未来预期销售量年增长率为 5%-10%；
-- 其他作物的预期销售量每年变化 ±5%；
-- 每年作物亩产量波动 ±10%；
-- 种植成本每年增加 5%；
-- 粮食作物价格保持稳定；
-- 蔬菜价格每年增长 5%；
-- 食用菌价格每年下降 1%-5%，特别是羊肚菌的价格每年下降 5%。
+## Problem 2
+Considering the following uncertainties, provide the optimal planting plan for 2024 to 2030 and fill in the results in `result2.xlsx` (see attachment 3 for template files):
+- The annual growth rate of expected sales volume for wheat and corn is 5%-10%;
+- The expected sales volume of other crops varies by ±5% each year;
+- The annual yield per mu of crops fluctuates by ±10%;
+- Planting costs increase by 5% each year;
+- Grain crop prices remain stable;
+- Vegetable prices increase by 5% each year;
+- Edible fungi prices decrease by 1%-5% each year, especially the price of morels, which decreases by 5% each year.
 
-## 问题3
-在问题2的基础上，综合考虑农作物之间的可替代性和互补性，以及销售量、销售价格、种植成本之间的相关性，给出 2024~2030 年的最优种植策略，并与问题2的结果进行比较分析。
+## Problem 3
+Based on Problem 2, comprehensively consider the substitutability and complementarity among crops, as well as the correlations between sales volume, sales prices, and planting costs, to provide the optimal planting strategy for 2024 to 2030 and perform a comparative analysis with the results from Problem 2.
 
-## 附件
-- **附件1**：乡村现有耕地和农作物的基本情况
-- **附件2**：2023年乡村农作物种植和相关统计数据
-- **附件3**：须提交结果的模板文件（`result1_1.xlsx`，`result1_2.xlsx`，`result2.xlsx`）
+## Attachments
+- **Attachment 1**: Basic information on existing arable land and crops in the village
+- **Attachment 2**: 2023 planting and related statistical data for village crops
+- **Attachment 3**: Template files for submission results (`result1_1.xlsx`, `result1_2.xlsx`, `result2.xlsx`)
