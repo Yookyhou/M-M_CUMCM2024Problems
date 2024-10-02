@@ -1,4 +1,4 @@
-# Problem C题 Planting Strategies
+# Problem C Planting Strategies
 
 ## Problem Background
 In a village located in the mountainous area of North China, the temperature is generally low, and most arable land can only support one season of crops each year. The village has a total arable land area of 1201 mu, divided into 34 different types of plots, including flat dry land, terraced fields, hillside land, and irrigated land. Additionally, the village has 16 ordinary greenhouses and 4 smart greenhouses, each with an area of 0.6 mu.
